@@ -18,8 +18,8 @@ The Bluemix Mobile Starter for Watson Language will showcase the Text To Speech 
 
 ### Requirements
 * iOS 8.0+
-* Xcode 8.0
-* Swift 3.0
+* Xcode 9.0+
+* Swift 3.2+ or Swift 4.0+
 
 ### Configuration
 * [Bluemix Mobile services Dependency Mangagement](#bluemix-mobile-services-dependency-management)
@@ -73,7 +73,7 @@ $ brew install carthage
 To use the Watson Developer Cloud iOS SDK in any of your applications, specify it in your `Cartfile`:
 
 ```
-github "watson-developer-cloud/ios-sdk"
+github "watson-developer-cloud/swift-sdk"
 ```
 
 For this starter, a pre-configured `Cartfile` has been included in the **ios_swift/Cartfile** location
